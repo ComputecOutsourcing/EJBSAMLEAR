@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<enterprise-project
+  version="1.0.0"
+  name="EJBSAMLEAR"
+  id="myeclipse.1335373252176"
+  j2ee-spec="5.0"
+  archive="EJBSAMLEAR.ear">
+  <project-modules>
+    <project-module
+      type="EJB"
+      name="EJBSAML"
+      id="myeclipse.1335372261505"
+      j2ee-spec="5.0"
+      archive="EJBSAML.jar" />
+  </project-modules>
+</enterprise-project>
+

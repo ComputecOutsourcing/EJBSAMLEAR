@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <copy todir="./target/EJBSAMLEAR-1.1/META-INF">
+    <fileset dir="./EARContent/META-INF/"/>
+  </copy>
+  <delete file="./target/EJBSAMLEAR-1.1.ear"/>
+  <zip basedir="./target/EJBSAMLEAR-1.1" destfile="./target/EJBSAMLEAR-1.1.ear"/>
+</target>
+</project>
